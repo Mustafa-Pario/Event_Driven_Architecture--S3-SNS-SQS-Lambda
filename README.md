@@ -2,6 +2,11 @@
 
 This project demonstrates an event-driven architecture on AWS, where events are used to decouple application components and enable scalable, asynchronous processing.
 
+<p align="center">
+  <img width="1000" height="550" alt="Project_Diagram"
+       src="https://github.com/user-attachments/assets/e011f5b6-21d2-4246-815d-bcabae95797e" />
+</p>
+
 ## 📌 Overview
 
 Event-driven architectures allow services to communicate through events instead of direct calls. This improves scalability, fault tolerance, and flexibility.
@@ -49,5 +54,4 @@ This repository includes the policies required to securely implement the archite
 - SNS subscription filter policy – Filters events before they reach SQS
 
 - Lambda policies – Permissions for Lambda to read from SQS and access required AWS resources
-- 
 
